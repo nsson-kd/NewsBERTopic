@@ -110,7 +110,6 @@ st.sidebar.markdown("### 📅 분석 기간 설정")
 periods = list(file_map.keys())
 latest_period = periods[0]
 
-st.sidebar.markdown("### 📅 분석 기간 설정")
 st.sidebar.caption("양쪽 끝의 슬라이더를 움직여 조회할 기간을 설정하세요.")
 
 # 💡 1. 슬라이더 UI의 직관성을 위해 기간 리스트를 '과거 ➡️ 최신' 순서로 뒤집습니다.
