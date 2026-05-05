@@ -71,7 +71,7 @@ result_dirs = [os.path.join(region_map[r], "result") for r in selected_regions]
 emb_dirs = [os.path.join(region_map[r], "embeddings") for r in selected_regions]
 
 st.sidebar.markdown("---")
-@st.cache_data
+# @st.cache_data
 def get_available_periods(data_dirs_list, source):
     """여러 지역 폴더를 순회하며 공통/개별 주차 파일들을 묶어주는 함수"""
     file_map = {}
